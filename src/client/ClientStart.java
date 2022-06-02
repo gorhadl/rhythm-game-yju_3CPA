@@ -1,0 +1,15 @@
+package client;
+
+import javax.swing.JOptionPane;
+
+import CPA_TEAM_11.Main;
+
+public class ClientStart {
+	public static void main(String[] args) {
+		String ip = JOptionPane.showInputDialog("서버 ip 입력하세요.");
+		ClientUI b = new ClientUI(ip);
+		b.setLocationRelativeTo(null);
+		b.setVisible(true);
+	}
+}
+// 이미지, 승패다시, 
